@@ -5,17 +5,17 @@
     font-style: normal;
     font-weight: 500;
     src: url("./fonts/poppins-v20-latin-500.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url("./fonts/poppins-v20-latin-500.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* poppins-700 - latin */
-  @font-face {
+    url("./fonts/poppins-v20-latin-500.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-700 - latin */
+@font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
     src: url("./fonts/poppins-v20-latin-700.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url("./fonts/poppins-v20-latin-700.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
+    url("./fonts/poppins-v20-latin-700.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 
 * {
     box-sizing: border-box;
@@ -26,4 +26,72 @@ body {
     padding: 0;
     font-family: "Poppins" , "Arial", sans-serif;
 }
+
+.container {
+    width: 1480px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+
+.inner-header {
+    margin: 0;
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.left-header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
+}
+
+.right-header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 37px;
+}
+
+.logo {
+    margin-right: 8px;
+}
+
+.header-link {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #9E9AA8;
+    text-decoration: none;
+}
+
+.sign-up {
+    color: #fff;
+    padding: 9px 24px;
+    width: 105px;
+    height: 40px;
+    background: #2BD0D0;
+    border-radius: 28px;
+}
+
+.header-link:hover {
+    color:#34313D;
+}
+
+.sign-up:hover {
+    background: #9AE3E3;
+    color: #fff;
+}
+
+
 
