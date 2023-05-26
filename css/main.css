@@ -417,7 +417,7 @@ body {
 }
 
 .footer__list {
-    margin: 72px 0 0;
+    margin: 72px 0 70px;
     padding: 0;
     list-style: none;
 }
